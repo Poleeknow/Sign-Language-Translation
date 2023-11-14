@@ -5,6 +5,7 @@
 - [Project Files Overview](#project-files-overview) 🗂️
   - [Code Files](#code-files) 💻
   - [Report](#report) 📑
+- [Data](#data)💾
 - [Getting Started](#getting-started) 🚀
 - [Contributing](#contributing) ✨
 
@@ -28,6 +29,9 @@ The Sign Language Translator is an innovative project aimed at bridging the comm
 
 1. **Proposal Idea Sign Lang.pdf**
    - Description: Outlines the initial proposal idea for the Sign Language Translator project. Provides an overview of the problem, the proposed solution, and details about the dataset used.
+
+## Data 💾
+[Slovo](https://www.kaggle.com/datasets/kapitanov/slovo/data): video dataset for Russian Sign Language (RSL) recognition
 
 ## Getting Started 🚀
 
