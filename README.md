@@ -15,25 +15,28 @@ The Sign Language Translator is an innovative project aimed at bridging the comm
 
 ### Code Files 💻
 
-1. **data.py**
-   - Description: py script for dataset loading
-
-2. **requirements.txt**
+1. **requirements.txt**
    - Description: requirements
 
-3. **data_preprocessing.ipynb**
+2. **data.py**
+   - Description: py script for dataset loading
+
+3. **classes.py**
+   - Description: dictionary with all classes
+
+4. **data_preprocessing.ipynb**
    - Description: Code for preprocessing the data from the "Slovo - Russian Sign Language Dataset". Includes steps for data cleaning, normalization.
 
-4. **model_analiitic_written_models.ipynb**
+5. **model_analiitic_written_models.ipynb**
    - Description: Contains various models experiments conducted during the project. Includes different hand-written models for sign language recognition and comparative analysis of treir performance.
 
-5. **model_analitic_pretrained_model.ipynb**
+6. **model_analitic_pretrained_model.ipynb**
    - Description: MViT16-4 model implementation notebook. Includes the preprocessing, training, and evaluation.
 
-6. **training_preproc_written_model.ipynb**
+7. **training_preproc_written_model.ipynb**
    - Description: TwoStream3DConvNet model preprocessing.
 
-7. **hand-written-model.ipynb**
+8. **hand-written-model.ipynb**
    - Description: Training and evaluation of TwoStream3DConvNet model.
 
 
