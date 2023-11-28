@@ -6,3 +6,4 @@ Pillow
 torchvision
 opencv-python
 requests
+matplotlib
