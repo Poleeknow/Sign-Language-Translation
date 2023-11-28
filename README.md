@@ -4,7 +4,6 @@
 - [About the Project](#about-the-project) 📖
 - [Project Files Overview](#project-files-overview) 🗂️
   - [Code Files](#code-files) 💻
-  - [Report](#report) 📑
 - [Data](#data)💾
 - [Getting Started](#getting-started) 🚀
 - [Contributing](#contributing) ✨
@@ -16,19 +15,27 @@ The Sign Language Translator is an innovative project aimed at bridging the comm
 
 ### Code Files 💻
 
-1. **data_preprocessing.ipynb**
-   - Description: Code for preprocessing the data from the "Slovo - Russian Sign Language Dataset". Includes steps for data cleaning, normalization, and augmentation.
+1. **data.py**
+   - Description: py script for dataset loading
 
-2. **analitics_modelss.ipynb**
-   - Description: Contains various analytical models and experiments conducted during the project. Includes different approaches to sign language recognition and comparative analysis of model performance.
+2. **requirements.txt**
+   - Description: requirements
 
-3. **model.ipynb**
-   - Description: Main model implementation notebook. Includes the architecture, training, and evaluation of the machine learning model for translating sign language into text.
+3. **data_preprocessing.ipynb**
+   - Description: Code for preprocessing the data from the "Slovo - Russian Sign Language Dataset". Includes steps for data cleaning, normalization.
 
-### Report 📑
+4. **model_analiitic_written_models.ipynb**
+   - Description: Contains various models experiments conducted during the project. Includes different hand-written models for sign language recognition and comparative analysis of treir performance.
 
-1. **Proposal Idea Sign Lang.pdf**
-   - Description: Outlines the initial proposal idea for the Sign Language Translator project. Provides an overview of the problem, the proposed solution, and details about the dataset used.
+5. **model_analitic_pretrained_model.ipynb**
+   - Description: MViT16-4 model implementation notebook. Includes the preprocessing, training, and evaluation.
+
+6. **training_preproc_written_model.ipynb**
+   - Description: TwoStream3DConvNet model preprocessing.
+
+7. **hand-written-model.ipynb**
+   - Description: Training and evaluation of TwoStream3DConvNet model.
+
 
 ## Data 💾
 [Slovo](https://www.kaggle.com/datasets/kapitanov/slovo/data): video dataset for Russian Sign Language (RSL) recognition
@@ -66,25 +73,11 @@ pip install -r requirements.txt
 ```
 
 
-### Running the Code
+4. **Load dataset**:
 
-1. **Data Preprocessing**:
-- Open the `data_preprocessing.ipynb` notebook in Jupyter.
-- Run the cells in sequence to preprocess the data.
-
-2. **Model Analysis**:
-- Open the `analitics_modelss.ipynb` notebook in Jupyter.
-- Execute the cells to analyze various models and their performance.
-
-3. **Model Training and Evaluation**:
-- Open the `model.ipynb` notebook in Jupyter.
-- Run the cells to train and evaluate the sign language translation model.
-
-### Note
-- Make sure to adjust the file paths and configurations according to your local setup.
-- If additional datasets or resources are required, ensure they are properly set up and accessible.
-
-Now you're ready to explore and contribute to the Sign Language Translator project! 🌟
+```bash
+python data.py
+```
 
 ## Contributing ✨
 
